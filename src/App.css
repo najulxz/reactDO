@@ -1,0 +1,118 @@
+div, button, section, header, body, input, function, ul, li, h1{
+    margin: 0%;
+    padding: 0%;
+    font-family: "fonte";
+}
+@font-face {
+    font-family: "fonte";
+    src: url(font/Marcellus-Regular.ttf);
+}
+.lista
+{
+    background-color: #D9D9D9;
+    width: 40% ;
+    height: 400px;
+    border-radius: 2%;
+    margin-left: 8%;
+    border: none;
+    font-size:larger;
+    margin-top: 4%;
+    
+
+}
+.texto{
+    background-color: #743AD3;
+    height: 10vh ;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(238, 238, 238), rgb(127, 66, 185));
+}
+button{
+    background-color: #D9D9D9;
+    border: #D9D9D9;
+    margin-left: 3%;
+}
+ul {
+    list-style-image: url('https://i.stack.imgur.com/5kI3v.png');
+    
+  }
+input
+{
+    border: #D9D9D9;
+    height: 10%;
+    width: 80%;
+    margin-top: 3%;
+    border-radius: 7px;
+    text-align: center;
+    margin-left: 3%;
+    
+}
+i{
+    color: #743AD3;
+    margin-left: 3%;
+    size: 3%;
+}
+.itemInativo{
+    text-decoration: line-through;
+    margin-left: 17%;
+    margin-top: 2%;
+}
+.itemAtivo{
+    margin-top: 2%;
+    margin-left: 17%;
+
+}
+h1{
+    background-color: #743AD3;
+}
+.primeirotexto
+{
+    color: #ffffff;
+    border-color:#743AD3;
+    height: 60%;
+    width: 70%;
+    margin-top: 1%;
+    font-size: x-large;
+    background-color: #743AD3;
+    margin-left: 13%;
+    
+}
+input::placeholder {
+    color: rgb(0, 0, 0);
+}
+textarea::placeholder{
+    color: #743AD3;
+}
+textarea{
+    background-image: url("https://i.stack.imgur.com/yWNH7.png");
+    font-size:21px;
+    color: #743AD3;
+    resize: none;
+    height: 50%;
+    
+}
+.lista1
+{
+    width: 40%;
+    height: 300px;
+}
+.lista2
+{
+    margin-top: 4%;
+    margin-left: 20%;
+    height: 300px;
+    width: 60%;
+}
+
+.display{
+    display: flex;
+}
+
+.caixaFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
